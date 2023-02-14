@@ -28,11 +28,22 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question__answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.question__button {
+  width: 10rem;
+}
+
+.question__box {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
